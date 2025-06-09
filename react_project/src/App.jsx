@@ -1,20 +1,14 @@
 import './App.css'
+import Home from './pages/Home'
 
 function App()
 {
   return(
     <>
-     <Text display="whats up" />
-     <Text display="hello"/>
-    </>
+  <Home/>
+   </>
   );
-}
-function Text({display}){
-  return(
-    <div>
-      <p>{display}</p>
-    </div>
-  );
+  
 }
 
 export default App 
